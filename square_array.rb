@@ -10,4 +10,5 @@ def square_array(array)
   array.collect do |number|
     array << number ** 2
   end
+  array
 end
