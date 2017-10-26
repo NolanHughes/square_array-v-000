@@ -8,6 +8,6 @@
 
 def square_array(array)
   array.collect do |number|
-    new_array << number ** 2
+    array << number ** 2
   end
 end
